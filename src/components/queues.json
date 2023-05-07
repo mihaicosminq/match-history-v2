@@ -1,0 +1,926 @@
+[
+  {
+    "queueId": 0,
+    "name": "Custom",
+    "shortName": "Custom",
+    "description": "Custom",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": "Normal (Blind Pick)"
+  },
+  {
+    "queueId": 2,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": "Normal (Blind Pick)"
+  },
+  {
+    "queueId": 8,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": "Normal (Blind Pick)"
+  },
+  {
+    "queueId": 9,
+    "name": "Ranked Flex",
+    "shortName": "Ranked Flex",
+    "description": "Ranked Flex",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 14,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Draft Pick",
+    "detailedDescription": "Normal (Draft Pick)"
+  },
+  {
+    "queueId": 31,
+    "name": "Intro",
+    "shortName": "Intro",
+    "description": "Intro",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 32,
+    "name": "Beginner",
+    "shortName": "Beginner",
+    "description": "Beginner",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 33,
+    "name": "Intermediate",
+    "shortName": "Intermediate",
+    "description": "Intermediate",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 34,
+    "name": "Intro",
+    "shortName": "Intro",
+    "description": "Intro",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 35,
+    "name": "Beginner",
+    "shortName": "Beginner",
+    "description": "Beginner",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 36,
+    "name": "Intermediate",
+    "shortName": "Intermediate",
+    "description": "Intermediate",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 41,
+    "name": "Team",
+    "shortName": "Team",
+    "description": "Team",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 42,
+    "name": "Team",
+    "shortName": "Team",
+    "description": "Team",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 52,
+    "name": "Beginner",
+    "shortName": "Beginner",
+    "description": "Beginner",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 62,
+    "name": "ARAM",
+    "shortName": "ARAM",
+    "description": "ARAM",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 63,
+    "name": "ARAM",
+    "shortName": "ARAM",
+    "description": "ARAM",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 64,
+    "name": "ARAM",
+    "shortName": "ARAM",
+    "description": "ARAM",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 65,
+    "name": "ARAM",
+    "shortName": "ARAM",
+    "description": "ARAM",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 90,
+    "name": "The Teemoing",
+    "shortName": "The Teemoing",
+    "description": "The Teemoing",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 91,
+    "name": "The Teemoing",
+    "shortName": "The Teemoing",
+    "description": "The Teemoing",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 92,
+    "name": "Level 100 Gauntlet",
+    "shortName": "Level 100 Gauntlet",
+    "description": "Level 100 Gauntlet",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 96,
+    "name": "Ascension",
+    "shortName": "Ascension",
+    "description": "Ascension",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 97,
+    "name": "Ascension",
+    "shortName": "Ascension",
+    "description": "Ascension",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 100,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": "Normal (Blind Pick)"
+  },
+  {
+    "queueId": 300,
+    "name": "Legend of the Poro King",
+    "shortName": "Poro King",
+    "description": "Poro King",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 301,
+    "name": "Legend of the Poro King",
+    "shortName": "Poro King",
+    "description": "Poro King",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 314,
+    "name": "Nexus Siege",
+    "shortName": "Nexus Siege",
+    "description": "Nexus Siege",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 315,
+    "name": "Nexus Siege",
+    "shortName": "Nexus Siege",
+    "description": "Nexus Siege",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 316,
+    "name": "Definitely Not Dominion",
+    "shortName": "Definitely Not Dominion",
+    "description": "Definitely Not Dominion",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 317,
+    "name": "Definitely Not Dominion",
+    "shortName": "Definitely Not Dominion",
+    "description": "Definitely Not Dominion",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 318,
+    "name": "AR Ultra Rapid Fire",
+    "shortName": "ARURF",
+    "description": "AR Ultra Rapid Fire",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 319,
+    "name": "AR Ultra Rapid Fire",
+    "shortName": "ARURF",
+    "description": "AR Ultra Rapid Fire",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 320,
+    "name": "Blood Moon",
+    "shortName": "Blood Moon",
+    "description": "Blood Moon",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 321,
+    "name": "Blood Moon",
+    "shortName": "Blood Moon",
+    "description": "Blood Moon",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 324,
+    "name": "ARSR",
+    "shortName": "ARSR",
+    "description": "ARSR",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 325,
+    "name": "ARSR",
+    "shortName": "ARSR",
+    "description": "ARSR",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 400,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Draft Pick",
+    "detailedDescription": "Normal (Draft Pick)"
+  },
+  {
+    "queueId": 401,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Draft Pick",
+    "detailedDescription": "Normal (Draft Pick)"
+  },
+  {
+    "queueId": 402,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Draft Pick",
+    "detailedDescription": "Normal (Draft Pick)"
+  },
+  {
+    "queueId": 403,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Draft Pick",
+    "detailedDescription": "Normal (Draft Pick)"
+  },
+  {
+    "queueId": 410,
+    "name": "Ranked",
+    "shortName": "Ranked",
+    "description": "Ranked Draft",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 411,
+    "name": "Ranked",
+    "shortName": "Ranked",
+    "description": "Ranked Draft",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 412,
+    "name": "Ranked",
+    "shortName": "Ranked",
+    "description": "Ranked Draft",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 413,
+    "name": "Ranked",
+    "shortName": "Ranked",
+    "description": "Ranked Draft",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 420,
+    "name": "Ranked Solo",
+    "shortName": "Ranked Solo/Duo",
+    "description": "Ranked Solo/Duo",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 421,
+    "name": "Ranked Solo/Duo",
+    "shortName": "Ranked Solo/Duo",
+    "description": "Ranked Solo/Duo",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 422,
+    "name": "Ranked Solo/Duo",
+    "shortName": "Ranked Solo/Duo",
+    "description": "Ranked Solo/Duo",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 430,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": "Normal (Blind Pick)"
+  },
+  {
+    "queueId": 431,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 432,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 433,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": "Normal (Blind Pick)"
+  },
+  {
+    "queueId": 440,
+    "name": "Ranked Flex",
+    "shortName": "Ranked Flex",
+    "description": "Ranked Flex",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 441,
+    "name": "Ranked Flex",
+    "shortName": "Ranked Flex",
+    "description": "Ranked Flex",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 442,
+    "name": "Ranked Flex",
+    "shortName": "Ranked Flex",
+    "description": "Ranked Flex",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 450,
+    "name": "ARAM",
+    "shortName": "ARAM",
+    "description": "ARAM",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 451,
+    "name": "3v3",
+    "shortName": "3v3",
+    "description": "3v3",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 452,
+    "name": "1v1",
+    "shortName": "1v1",
+    "description": "1v1",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 460,
+    "name": "Normal",
+    "shortName": "Normal",
+    "description": "Blind Pick",
+    "detailedDescription": "Normal (Blind Pick)"
+  },
+  {
+    "queueId": 470,
+    "name": "Ranked Flex",
+    "shortName": "Ranked Flex",
+    "description": "Ranked Flex",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 600,
+    "name": "Blood Moon",
+    "shortName": "Blood Moon",
+    "description": "Blood Moon",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 601,
+    "name": "Blood Moon",
+    "shortName": "Blood Moon",
+    "description": "Blood Moon",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 610,
+    "name": "Dark Star: Singularity",
+    "shortName": "Dark Star",
+    "description": "Dark Star: Singularity",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 611,
+    "name": "Dark Star: Singularity",
+    "shortName": "Dark Star",
+    "description": "Dark Star: Singularity",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 700,
+    "name": "Clash",
+    "shortName": "Clash",
+    "description": "Clash",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 701,
+    "name": "Clash",
+    "shortName": "Clash",
+    "description": "Clash",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 800,
+    "name": "Intermediate",
+    "shortName": "Intermediate",
+    "description": "Intermediate",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 801,
+    "name": "Co-op vs. AI",
+    "shortName": "Co-op vs. AI",
+    "description": "Co-op vs. AI",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 810,
+    "name": "Intro",
+    "shortName": "Intro",
+    "description": "Intro",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 820,
+    "name": "Beginner",
+    "shortName": "Beginner",
+    "description": "Beginner",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 830,
+    "name": "Intro",
+    "shortName": "Intro",
+    "description": "Intro",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 840,
+    "name": "Beginner",
+    "shortName": "Beginner",
+    "description": "Beginner",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 850,
+    "name": "Intermediate",
+    "shortName": "Intermediate",
+    "description": "Intermediate",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 900,
+    "name": "Ultra Rapid Fire",
+    "shortName": "URF",
+    "description": "Ultra Rapid Fire",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 901,
+    "name": "1v1",
+    "shortName": "1v1",
+    "description": "1v1",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 910,
+    "name": "Ascension",
+    "shortName": "Ascension",
+    "description": "Ascension",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 911,
+    "name": "Ascension",
+    "shortName": "Ascension",
+    "description": "Ascension",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 920,
+    "name": "Legend of the Poro King",
+    "shortName": "Poro King",
+    "description": "Poro King",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 921,
+    "name": "Legend of the Poro King",
+    "shortName": "Poro King",
+    "description": "Poro King",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 930,
+    "name": "ARAM",
+    "shortName": "ARAM",
+    "description": "ARAM",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 931,
+    "name": "ARAM",
+    "shortName": "ARAM",
+    "description": "ARAM",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 940,
+    "name": "Nexus Siege",
+    "shortName": "Nexus Siege",
+    "description": "Nexus Siege",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 941,
+    "name": "Nexus Siege",
+    "shortName": "Nexus Siege",
+    "description": "Nexus Siege",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 950,
+    "name": "Level 100 Gauntlet",
+    "shortName": "Level 100 Gauntlet",
+    "description": "Level 100 Gauntlet",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 951,
+    "name": "Level 100 Gauntlet",
+    "shortName": "Level 100 Gauntlet",
+    "description": "Level 100 Gauntlet",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 960,
+    "name": "The Teemoing",
+    "shortName": "The Teemoing",
+    "description": "The Teemoing",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 961,
+    "name": "The Teemoing",
+    "shortName": "The Teemoing",
+    "description": "The Teemoing",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 970,
+    "name": "Hexakill",
+    "shortName": "Hexakill",
+    "description": "Hexakill",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 980,
+    "name": "Invasion (Normal)",
+    "shortName": "Invasion (Normal)",
+    "description": "Normal",
+    "detailedDescription": "Invasion (Normal)"
+  },
+  {
+    "queueId": 981,
+    "name": "Invasion (Normal)",
+    "shortName": "Invasion (Normal)",
+    "description": "Normal",
+    "detailedDescription": "Invasion (Normal)"
+  },
+  {
+    "queueId": 982,
+    "name": "Invasion (Normal)",
+    "shortName": "Invasion (Normal)",
+    "description": "Normal",
+    "detailedDescription": "Invasion (Normal)"
+  },
+  {
+    "queueId": 990,
+    "name": "Invasion (Onslaught)",
+    "shortName": "Invasion (Onslaught)",
+    "description": "Onslaught",
+    "detailedDescription": "Invasion (Onslaught)"
+  },
+  {
+    "queueId": 1000,
+    "name": "Overcharge",
+    "shortName": "Overcharge",
+    "description": "Overcharge",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1001,
+    "name": "Overcharge",
+    "shortName": "Overcharge",
+    "description": "Overcharge",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1010,
+    "name": "Snow Battle ARURF",
+    "shortName": "Snow ARURF",
+    "description": "Snow Battle ARURF",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1011,
+    "name": "Snow Battle ARURF",
+    "shortName": "Snow ARURF",
+    "description": "Snow Battle ARURF",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1020,
+    "name": "One For All",
+    "shortName": "One For All",
+    "description": "One For All",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1021,
+    "name": "1v1",
+    "shortName": "1v1",
+    "description": "1v1",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1022,
+    "name": "3v3",
+    "shortName": "3v3",
+    "description": "3v3",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1023,
+    "name": "2v2",
+    "shortName": "2v2",
+    "description": "2v2",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1024,
+    "name": "4v4",
+    "shortName": "4v4",
+    "description": "4v4",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1030,
+    "name": "Odyssey (Intro)",
+    "shortName": "Odyssey (Intro)",
+    "description": "Intro",
+    "detailedDescription": "Odyssey (Intro)"
+  },
+  {
+    "queueId": 1040,
+    "name": "Odyssey (Cadet)",
+    "shortName": "Odyssey (Cadet)",
+    "description": "Cadet",
+    "detailedDescription": "Odyssey (Cadet)"
+  },
+  {
+    "queueId": 1050,
+    "name": "Odyssey (Crewmember)",
+    "shortName": "Odyssey (Crewmember)",
+    "description": "Crewmember",
+    "detailedDescription": "Odyssey (Crewmember)"
+  },
+  {
+    "queueId": 1060,
+    "name": "Odyssey (Captain)",
+    "shortName": "Odyssey (Captain)",
+    "description": "Captain",
+    "detailedDescription": "Odyssey (Captain)"
+  },
+  {
+    "queueId": 1070,
+    "name": "Odyssey (Onslaught)",
+    "shortName": "Odyssey (Onslaught)",
+    "description": "Onslaught",
+    "detailedDescription": "Odyssey (Onslaught)"
+  },
+  {
+    "queueId": 1090,
+    "name": "Teamfight Tactics (Normal)",
+    "shortName": "Teamfight Tactics (Normal)",
+    "description": "Normal",
+    "detailedDescription": "Teamfight Tactics (Normal)"
+  },
+  {
+    "queueId": 1091,
+    "name": "1v0",
+    "shortName": "1v0",
+    "description": "1v0",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1092,
+    "name": "2v0",
+    "shortName": "2v0",
+    "description": "2v0",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1100,
+    "name": "Teamfight Tactics (Ranked)",
+    "shortName": "Teamfight Tactics (Ranked)",
+    "description": "Ranked",
+    "detailedDescription": "Teamfight Tactics (Ranked)"
+  },
+  {
+    "queueId": 1101,
+    "name": "1v0 (Ranked)",
+    "shortName": "1v0 (Ranked)",
+    "description": "1v0 (Ranked)",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1102,
+    "name": "2v0 (Ranked)",
+    "shortName": "2v0 (Ranked)",
+    "description": "2v0 (Ranked)",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1110,
+    "name": "Teamfight Tactics (Tutorial)",
+    "shortName": "Teamfight Tactics (Tutorial)",
+    "description": "Tutorial",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1111,
+    "name": "TFT Simulation\t",
+    "shortName": "TFT Simulation",
+    "description": "Simulation",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1120,
+    "name": "Teamfight Tactics (Normal Hyper Roll)",
+    "shortName": "Teamfight Tactics (Normal Hyper Roll)",
+    "description": "Normal Hyper Roll",
+    "detailedDescription": "Teamfight Tactics (Normal Hyper Roll)"
+  },
+  {
+    "queueId": 1121,
+    "name": "1v0 (Normal Hyper Roll)",
+    "shortName": "1v0 (Normal Hyper Roll)",
+    "description": "1v0 (Normal Hyper Roll)",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1122,
+    "name": "2v0 (Normal Hyper Roll)",
+    "shortName": "2v0 (Normal Hyper Roll)",
+    "description": "2v0 (Normal Hyper Roll)",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1130,
+    "name": "Teamfight Tactics (Hyper Roll)",
+    "shortName": "Teamfight Tactics (Hyper Roll)",
+    "description": "Hyper Roll",
+    "detailedDescription": "Teamfight Tactics (Hyper Roll)"
+  },
+  {
+    "queueId": 1131,
+    "name": "1v0 (Hyper Roll)",
+    "shortName": "1v0 (Hyper Roll)",
+    "description": "1v0 (Hyper Roll)",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1132,
+    "name": "2v0 (Hyper Roll)",
+    "shortName": "2v0 (Hyper Roll)",
+    "description": "2v0 (Hyper Roll)",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1200,
+    "name": "Nexus Blitz",
+    "shortName": "Nexus Blitz",
+    "description": "Blind Pick",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1201,
+    "name": "1v1",
+    "shortName": "1v1",
+    "description": "1v1",
+    "detailedDescription": "1v1"
+  },
+  {
+    "queueId": 1300,
+    "name": "Nexus Blitz",
+    "shortName": "Nexus Blitz",
+    "description": "Blind Pick",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1301,
+    "name": "1v1",
+    "shortName": "1v1",
+    "description": "1v1",
+    "detailedDescription": "1v1"
+  },
+  {
+    "queueId": 1400,
+    "name": "Ultimate Spellbook",
+    "shortName": "Ultimate Spellbook",
+    "description": "Ultimate Spellbook",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1401,
+    "name": "1v1",
+    "shortName": "1v1",
+    "description": "1v1",
+    "detailedDescription": "1v1"
+  },
+  {
+    "queueId": 1402,
+    "name": "2v2",
+    "shortName": "2v2",
+    "description": "2v2",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1403,
+    "name": "3v3",
+    "shortName": "3v3",
+    "description": "3v3",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 1404,
+    "name": "4v4",
+    "shortName": "4v4",
+    "description": "4v4",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 2000,
+    "name": "Tutorial Part 1",
+    "shortName": "Tutorial Part 1",
+    "description": "Tutorial Part 1",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 2010,
+    "name": "Tutorial Part 2",
+    "shortName": "Tutorial Part 2",
+    "description": "Tutorial Part 2",
+    "detailedDescription": ""
+  },
+  {
+    "queueId": 2020,
+    "name": "Tutorial Part 3",
+    "shortName": "Tutorial Part 3",
+    "description": "Tutorial Part 3",
+    "detailedDescription": ""
+  }
+]

@@ -1,0 +1,49 @@
+.queueSelect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:solid #665889 1px ;
+    border-left:solid #665889 1px ;
+    border-right:solid #665889 1px ;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.queueList{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top:0;
+    border-radius: 5px;
+}
+.listButton{
+    background-color: #312046;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    flex-grow: 1;
+    font-size: 15px;
+    height: 36px;
+    line-height: 20px;
+    margin-left: 8px;
+    margin-right: 6px;
+    min-width: 50px;
+    cursor: pointer;
+}
+
+.listButton:hover{
+    background-color: #665889;
+    cursor: pointer;
+}
+.listBar{
+    float: right;
+    padding: 6px;
+    border: none;
+    background-color: #665889;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.listBar ::placeholder{
+    color:white;
+}

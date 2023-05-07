@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: "Radiance", "Noto Sans", sans-serif;
+
+}
+
+.App {
+    display: flex;
+    background-color: #261a3a;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+}
+
+

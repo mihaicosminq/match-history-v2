@@ -1,0 +1,55 @@
+
+.profileimage{
+    margin-top: 32px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    flex-basis: 100px;
+}
+.level{
+    height: 20px;
+    margin-top: -11px;
+    text-align: center;
+}
+.levelstyle{
+    display: inline-block;
+    line-height: 20px;
+    padding: 0px 8px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 88, 137);
+    font-family: Roboto, sans-serif;
+}
+.summoner{
+    margin-top: 32px;
+    position: relative;
+    width: 100px;
+    height: 170px;
+    flex-basis: 100px;
+
+}
+.name{
+    height: 32px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.containerprofile{
+    padding: 20px 17px 16px 0px;
+    display: flex;
+    flex: 1 1 0%;
+    box-sizing: border-box;
+    align-items: center;
+    width: 1080px;
+}
+.imagine{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgba(27, 19, 52, 0.7);
+    box-shadow: rgb(27, 19, 62) 0px 0px 10px inset;
+    border-bottom: 1px solid rgb(37, 30, 71);
+    height: 200px;
+}

@@ -1,0 +1,6 @@
+.listItems{
+    padding-left:0px;
+    margin: auto;
+    display: flex;
+    list-style: none;
+}

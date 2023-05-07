@@ -1,0 +1,113 @@
+
+.background {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+
+
+.meci {
+    display: flex;
+    overflow: hidden;
+    border-radius: 4px;
+    border-left-width: 6px;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.76);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.76);
+    position: relative;
+    margin-bottom: 8px;
+    flex-direction: column;
+}
+
+.container1 {
+    display: flex;
+    border-top-style: solid;
+    border-top-width: 1px;
+    width: 100%;
+    justify-content: center;
+    padding: 15px 0 50px;
+}
+
+.rank {
+    height: 250px;
+}
+
+.matchContainer {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.queueSelect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: solid #665889 1px;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 1px;
+    list-style: none;
+}
+
+.queueList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 0;
+    border-radius: 5px;
+}
+
+.listButton {
+    background-color:transparent !important;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    flex-grow: 1;
+    font-size: 15px;
+    height: 36px;
+    line-height: 20px;
+    margin-left: 8px;
+    margin-right: 6px;
+    min-width: 50px;
+    cursor: pointer;
+}
+
+.listButton:hover {
+    background-color: #665889;
+    cursor: pointer;
+}
+
+.listInput {
+    float: right;
+    border: none;
+    background-color: #665889;
+    border-radius: 20px;
+    margin-top: 2px;
+    padding-right: 5px;
+}
+
+.listInput ::placeholder {
+    color: white;
+}
+
+.listaButoane {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top:-1px;
+}
+
+.nav {
+    border-bottom: 1px solid !important;
+    border-bottom-color: #665889 !important;
+    width: 100%;
+    justify-content: center !important;
+}
+
+.summonerWrap{
+    display: flex;
+    border-top: #665889 1px solid;
+}

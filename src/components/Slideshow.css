@@ -1,0 +1,14 @@
+
+.slideName{
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    margin: 50px;
+    padding-left: 5px;
+    font-size: 40px;
+    color:white;
+    text-transform: capitalize;
+    transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    transform: translateX(-24px);
+}
+

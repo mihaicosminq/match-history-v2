@@ -1,0 +1,180 @@
+.champSection{
+    margin-bottom: 1em;
+    display: flow-root;
+    position: relative;
+    width: 60%;
+    max-width: min(1045px, calc(100% - 288px));
+    min-width: min(828px, 100%);
+    min-height: 180px;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.imageChamp{
+    position: absolute;
+    top: -65px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.imageDiv{
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    bottom: 0px;
+    left: -50px;
+    overflow: hidden;
+}
+.champName{
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    margin: 24px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    min-height: 132px;
+}
+.roleIcon{
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    margin: 24px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 50px;
+    color: white;
+    font-weight: 700;
+}
+.nameStyle{
+    font-size: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px #261a3a;
+}
+.infoTitle{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.infoSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 15px 0;
+}
+.statsWrapper{
+    display: flex;
+    align-items: center;
+}
+.statSeparator{
+    border-right: #665889 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5px;
+}
+.mana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abilitySection{
+    width: 60%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.skill{
+    padding: 1em;
+    margin-top: 1em;
+    box-shadow: black 0 2px 5px 0;
+    border: #665889 solid 1px;
+    background: #230848 no-repeat right top;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    font-size:15px;
+    letter-spacing: .2px;
+    line-height: 1.5;
+    color: #bda5f6;
+}
+.passive{
+    border-bottom: #665889 1px solid;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+.spellImage{
+    padding-right: 5px;
+}
+.statsSection{
+    width: 60%;
+    text-align: center;
+}
+.mainImg{
+    width: 1140px;
+    transition: all 500ms;
+}
+.mainImgWrapper{
+    box-shadow: black 0 2px 5px 0;
+    position: relative;
+}
+
+
+.subTitle{
+    color: #ffffff;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 45px;
+    text-shadow: 0px 3px black;
+    border-bottom: #665889 1px solid;
+    letter-spacing: 0.05rem;
+}
+.skinNameWrapper{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 25vw;
+    min-width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+}
+.skinName{
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 1.28571;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+    transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    transform: translateX(-24px);
+}
+
+.slideshow{
+    position: relative;
+}
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

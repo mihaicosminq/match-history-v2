@@ -1,0 +1,136 @@
+* {
+    font-family: "Radiance", "Noto Sans", sans-serif;
+}
+
+.championsGrid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+    height: 100%;
+    row-gap: 15px;
+    animation: fadeIn 1s ease-in both;
+
+}
+.championsGrid:nth-child(2){
+    animation-delay: 1s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.championWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px 20px;
+}
+
+.championName {
+    position: absolute;
+    color: #665889;
+    top: 91%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 89%;
+    height: 80px;
+    display: flex;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.customText {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    color: floralwhite;
+}
+
+.championName :hover {
+    color: #665889;
+    transform: scale3d(1.05, 1.05, 1);
+    transition: transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.imageSpan:hover {
+    transform: scale3d(1.05, 1.05, 1);
+    transition: transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.lore {
+    width: 30%;
+    display: block;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.champSvg {
+    width: 25px;
+    height: 25px;
+}
+
+.roleFilterList {
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    margin: 2px;
+}
+
+.roleFilterButton {
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 0px 10px;
+    border: 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    transition: color 300ms ease 0s;
+    color: #665889;
+}
+
+.championInput {
+    background: transparent;
+    position: absolute;
+    height: 56px;
+    top: 125px;
+    left: 414px;
+    border-bottom: 1px solid #DDDDDD;
+
+
+}
+
+.championNav {
+    margin-top: 20px;
+}
+
+.searchChamp {
+    border: none;
+    transition: width 0.4s ease;
+}
+
+h1 {
+    padding-top: 10px;
+    border-bottom: 1px solid #665889;
+    font-size: 40px !important;
+    font-weight: 1000 !important;
+    color: white !important;
+}
+
+.listDiv {
+    border: 1px solid #bda5f6;
+}
+
+.championDivWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

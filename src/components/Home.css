@@ -1,0 +1,62 @@
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}
+
+.buttonbar {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+}
+
+.button {
+    height: 52px;
+    color: rgb(102, 88, 137);
+    margin-left: -1px;
+    cursor: pointer;
+    font-weight: bold;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:0;
+    background: transparent;
+    border-bottom: #665889 1px solid;
+    }
+
+.button:hover {
+    background-color: rgb(102, 88, 137);
+    color: white;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.summonerBar {
+    height: 52px;
+    width: 27em;
+    text-align: center;
+    font-size: 15px;
+    border: 0;
+    background: transparent;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom: #665889 1px solid;
+}
+.summonerBar:hover {
+    background-color: rgb(102, 88, 137);
+    color: white;
+}
+
+::placeholder{
+    color: #665889;
+}
+input:hover::placeholder{
+    color: white;
+}

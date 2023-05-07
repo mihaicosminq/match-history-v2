@@ -1,0 +1,18 @@
+.footer{
+    border-top-style: solid ;
+    border-top-width:1px ;
+    border-top-color: rgb(102, 88, 137);
+    min-width: 100%;
+    background: #312046;
+    padding-top:30px;
+
+}
+.title{
+    color: #665889;
+}
+.footerList{
+    color:white;
+    list-style: none;
+    padding-left: 0;
+    padding-right:20px;
+}

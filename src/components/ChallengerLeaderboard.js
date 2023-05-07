@@ -12,7 +12,7 @@ function ChallengerLeaderboard() {
 
     async function getFlexGames() {
         try {
-            const response = await axios.get("http://localhost:4000/past10Games")
+            const response = await axios.get("http://sore-rose-meerkat-suit.cyclic.app/past10Games")
             console.log(response)
             setSummoners(response.data.challengerSummoner)
             setSummonersReady(true)

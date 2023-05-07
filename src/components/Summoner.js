@@ -39,7 +39,7 @@ function Summoner() {
 
     async function getPlayerGamesAsync() {
         try {
-            const response = await axios.get("http://localhost:4000/past10Games", {params: {username: searchText}})
+            const response = await axios.get("https://sore-rose-meerkat-suit.cyclic.app/past10Games", {params: {username: searchText}})
             setMatchHistory(response.data.matchDataArray)
             setPlayerObj(response.data.matchDataArray[0].info.participants.find(participant => participant.puuid === response.data.puuid))
             setPuuid(response.data.puuid)

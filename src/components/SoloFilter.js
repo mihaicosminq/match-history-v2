@@ -19,7 +19,7 @@ function SoloFilter({
 
     async function getsoloGames(event) {
         try {
-            const response = await axios.get("http://localhost:4000/past10Games", {params: {username: searchText}})
+            const response = await axios.get("http://sore-rose-meerkat-suit.cyclic.app/past10Games", {params: {username: searchText}})
             setsoloGames(response.data.solo)
             setPuuid(response.data.puuid)
 

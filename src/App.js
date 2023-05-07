@@ -9,7 +9,7 @@ import ChallengerLeaderboard
 import Champions
     from "./components/Champions";
 import {
-    Route, Routes
+    Route, Routes , HashRouter
 }   from "react-router-dom";
 import Home
     from "./components/Home";
@@ -24,6 +24,7 @@ function App() {
     return (
         <>
             <div className="App">
+                <HashRouter>
                 <Routes>
                     <Route path="/"
                            element={
@@ -55,6 +56,7 @@ function App() {
 
                     </Route>
                 </Routes>
+                </HashRouter>
                 <Footer/>
             </div>
 

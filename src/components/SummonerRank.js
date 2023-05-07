@@ -1,7 +1,6 @@
 import "./SummonerRank.css"
 
 function SummonerRank({rank}) {
-    console.log(rank)
     return (<>
         {rank?.map((rank, index) => {
             const games = rank.wins + rank.losses

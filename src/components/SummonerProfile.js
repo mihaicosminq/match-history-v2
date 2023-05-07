@@ -12,7 +12,7 @@ function SummonerProfile({playerObj}) {
             <div className="summoner">
         <div className="profileimage">
             <img width="100" style={{borderRadius:5}}
-                 src={"http://ddragon.leagueoflegends.com/cdn/13.3.1/img/profileicon/" + playerObj.profileIcon + ".png"}/>
+                 src={"https://ddragon.leagueoflegends.com/cdn/13.3.1/img/profileicon/" + playerObj.profileIcon + ".png"}/>
             <div className="level">
             <span className="levelstyle">{playerObj.summonerLevel}</span>
             </div>

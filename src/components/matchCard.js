@@ -52,7 +52,7 @@ function MatchCard({
                             data-tooltip-id="my-tooltipv2" data-tooltip-content=
                             {playerObj.championName}
                             height="51px"
-                            src={"http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + playerObj.championName + ".png"}
+                            src={"https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + playerObj.championName + ".png"}
                             />
                         <Tooltip id="my-tooltipv2"/>
                         <div
@@ -107,7 +107,7 @@ function MatchCard({
                                     data-tooltip-id="my-tooltip" data-tooltip-content=
                                     {data.championName}
                                     width="15"
-                                    src={"http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + data.championName + ".png"}/>
+                                    src={"https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + data.championName + ".png"}/>
                                 <Tooltip id="my-tooltip"/>
                                 {data.summonerName}
                             </li>
@@ -181,7 +181,7 @@ function MatchCard({
                                             style={{display: "flex"}}>
                                             <img
                                                 width="45"
-                                                src={"http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + data.championName + ".png"}/>
+                                                src={"https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + data.championName + ".png"}/>
                                             <div
                                                 className="runes">
                                                 <SummonerRunes
@@ -263,7 +263,7 @@ function MatchCard({
                                             style={{display: "flex"}}>
                                             <img
                                                 width="45"
-                                                src={"http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + data.championName + ".png"}/>
+                                                src={"https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/" + data.championName + ".png"}/>
                                             <div
                                                 className="runes">
                                                 <SummonerRunes

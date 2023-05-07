@@ -12,7 +12,7 @@ function ChallengerLeaderboard() {
 
     async function getFlexGames() {
         try {
-            const response = await axios.get("http://sore-rose-meerkat-suit.cyclic.app/past10Games")
+            const response = await axios.get("https://sore-rose-meerkat-suit.cyclic.app/past10Games")
             console.log(response)
             setSummoners(response.data.challengerSummoner)
             setSummonersReady(true)
@@ -52,7 +52,7 @@ function ChallengerLeaderboard() {
                             <td>
                                 <img width="75" style={{borderRadius: 5}}
                                      onError={imageError}
-                                     src={"http://ddragon.leagueoflegends.com/cdn/13.3.1/img/profileicon/" + summoner.profileIcon + ".png"}/>
+                                     src={"https://ddragon.leagueoflegends.com/cdn/13.3.1/img/profileicon/" + summoner.profileIcon + ".png"}/>
                                 <span>{summoner.summonerName}</span>
                             </td>
 

@@ -73,7 +73,7 @@ function ChampionDetails() {
                                 <h2>Role</h2>
                                 {champInfo.tags[0] === "Mage" ?
                                     <svg
-                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns="https://www.w3.org/2000/svg"
                                         viewBox="0 0 100 100"
                                         data-testid="overview:roleicon"
                                         className="style__StyledSpecsIcon-sc-8gkpub-17-c dnNsJq">
@@ -85,7 +85,7 @@ function ChampionDetails() {
                                     :
                                     champInfo.tags[0] === "Fighter" ?
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns="https://www.w3.org/2000/svg"
                                             viewBox="0 0 100 100"
                                             data-testid="overview:roleicon"
                                             className="style__StyledSpecsIcon-sc-8gkpub-17-c dnNsJq">
@@ -97,7 +97,7 @@ function ChampionDetails() {
                                         :
                                         champInfo.tags[0] === "Support" ?
                                             <svg
-                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns="https://www.w3.org/2000/svg"
                                                 viewBox="0 0 100 100"
                                                 data-testid="overview:roleicon"
                                                 className="style__StyledSpecsIcon-sc-8gkpub-17-r jbAhkL">
@@ -107,7 +107,7 @@ function ChampionDetails() {
                                             :
                                             champInfo.tags[0] === "Assassin" ?
                                                 <svg
-                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns="https://www.w3.org/2000/svg"
                                                     viewBox="0 0 100 100"
                                                     data-testid="overview:roleicon"
                                                     className="style__StyledSpecsIcon-sc-8gkpub-17-c dnNsJq">
@@ -119,7 +119,7 @@ function ChampionDetails() {
                                                 :
                                                 champInfo.tags[0] === "Marksman" ?
                                                     <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns="https://www.w3.org/2000/svg"
                                                         viewBox="0 0 100 100"
                                                         data-testid="overview:roleicon"
                                                         className="style__StyledSpecsIcon-sc-8gkpub-17-c dnNsJq">
@@ -131,7 +131,7 @@ function ChampionDetails() {
                                                     :
                                                     champInfo.tags[0] === "Tank" ?
                                                         <svg
-                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns="https://www.w3.org/2000/svg"
                                                             viewBox="0 0 100 100"
                                                             data-testid="overview:roleicon"
                                                             className="style__StyledSpecsIcon-sc-8gkpub-17-c dnNsJq">

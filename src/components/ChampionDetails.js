@@ -21,7 +21,7 @@ function ChampionDetails() {
 
     async function getChamps() {
         try {
-            const response = await axios.get("https://ddragon.leagueoflegends.com/cdn/13.7.1/data/en_US/champion/" + searchText + ".json")
+            const response = await axios.get("httpss://ddragon.leagueoflegends.com/cdn/13.7.1/data/en_US/champion/" + searchText + ".json")
             setChampInfo(response.data.data[searchText])
             setIsReady(true)
         } catch (e) {

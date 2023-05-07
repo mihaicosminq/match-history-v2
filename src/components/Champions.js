@@ -30,7 +30,7 @@ function Champions() {
 
     async function getChamps() {
         try {
-            const response = await axios.get("http://ddragon.leagueoflegends.com/cdn/13.7.1/data/en_US/champion.json")
+            const response = await axios.get("https://ddragon.leagueoflegends.com/cdn/13.7.1/data/en_US/champion.json")
             setChamps(response.data.data)
         } catch (e) {
             console.log(e)

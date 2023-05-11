@@ -229,11 +229,16 @@ function Summoner() {
                             playerObj={playerObj}/>
                     }
                 </div>
-                   : <Spinner animation="border"/>
+                   :
+                    <div className="d-flex justify-content-center align-items-center flex-column mt-lg-2 pt-lg-2" style={{height:"800px"}}>
+                        <Spinner style={{width:"5rem", height:"5rem"}} animation="border"/>
+                        <span className="sr-only" style={{color:"white"}}>Loading summoner data</span>
+                    </div>
                 }
             </div>
         </>
     )
 }
+// <Spinner style={{width:"5rem", height:"5rem"}} animation="border"/>
 
 export default Summoner;

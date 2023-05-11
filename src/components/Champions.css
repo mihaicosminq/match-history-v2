@@ -13,19 +13,7 @@
     animation: fadeIn 1s ease-in both;
 
 }
-.championsGrid:nth-child(2){
-    animation-delay: 1s;
-}
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -20%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
+
 .championWrapper {
     display: flex;
     flex-direction: column;
@@ -33,36 +21,43 @@
     padding: 15px 20px;
 }
 
+
 .championName {
     position: absolute;
     color: #665889;
-    top: 91%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    width: 89%;
-    height: 80px;
+    top: 84%;
+    left: 31%;
+    transform: translate(10%);
+    width: 100%;
+    height: 50px;
     display: flex;
+    overflow: hidden;
     text-shadow: 2px 3px 4px black;
-
 }
 
 .customText {
-    font-size: 40px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 800;
-    color: floralwhite;
+    color: white;
 }
 
-.championName :hover {
+.championWrapper:hover .imageSpan{
+    transform: scale3d(1.05, 1.05, 1);
+    transition: transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.championWrapper:hover .championName{
     color: #665889;
-    transform: scale3d(1.05, 1.05, 1);
+    transform: translate(0.1%);
     transition: transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
 
-.imageSpan:hover {
-    transform: scale3d(1.05, 1.05, 1);
-    transition: transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+.championImage{
+    border-radius: 5px;
+    height: 400px;
+    overflow: hidden;
 }
+
 
 .lore {
     width: 30%;

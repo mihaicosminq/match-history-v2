@@ -1,9 +1,10 @@
 .searchBar {
+    padding-top:80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
     justify-content: center;
+    padding-bottom:150px;
 }
 
 .buttonbar {

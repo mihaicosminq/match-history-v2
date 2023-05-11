@@ -4,6 +4,7 @@ import {
 } from "react";
 import axios from "axios";
 import "./ChallengerLeaderboard.css"
+import Spinner from "react-bootstrap/Spinner";
 
 
 function ChallengerLeaderboard() {
@@ -32,71 +33,74 @@ function ChallengerLeaderboard() {
     }, [])
 
     return (
-        <table className="leaderboard-table">
-            <thead>
-            <tr>
-                <th>Summoner</th>
-                <th>LP</th>
-                <th>Level</th>
-                <th>Winrate</th>
-            </tr>
-            </thead>
-            <tbody>
-            {summonersReady && summoners.map((summoner) => {
-                let winPercentage = summonersReady && (summoner.wins / (summoner.wins + summoner.losses)) * 100
-                let lossPercentage = summonersReady && (summoner.losses / (summoner.wins + summoner.losses)) * 100
-                return (
-                    <>
+        summonersReady ?
+                <table className="leaderboard-table">
+                    <thead>
+                    <tr>
+                        <th>Summoner</th>
+                        <th>LP</th>
+                        <th>Level</th>
+                        <th>Winrate</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {summonersReady && summoners.map((summoner) => {
+                        let winPercentage = summonersReady && (summoner.wins / (summoner.wins + summoner.losses)) * 100
+                        let lossPercentage = summonersReady && (summoner.losses / (summoner.wins + summoner.losses)) * 100
+                        return (
+                            <>
 
-                        <tr>
-                            <td>
-                                <img width="75" style={{borderRadius: 5}}
-                                     onError={imageError}
-                                     src={"https://ddragon.leagueoflegends.com/cdn/13.3.1/img/profileicon/" + summoner.profileIcon + ".png"}/>
-                                <span>{summoner.summonerName}</span>
-                            </td>
+                                <tr>
+                                    <td>
+                                        <img width="75" style={{borderRadius: 5}}
+                                             onError={imageError}
+                                             src={"https://ddragon.leagueoflegends.com/cdn/13.3.1/img/profileicon/" + summoner.profileIcon + ".png"}/>
+                                        <span>{summoner.summonerName}</span>
+                                    </td>
 
-                            <td>
-                                <span>{summoner.leaguePoints}</span>
-                            </td>
+                                    <td>
+                                        <span>{summoner.leaguePoints}</span>
+                                    </td>
 
-                            <td>
-                                <span>{summoner.level}</span>
-                            </td>
-                            <td>
-                                {summonersReady &&
-                                    <div style={{float: "left"}}>
-                                        <div className="progress">
-                                            <div
-                                                className="progress-bar bg-success"
-                                                role="progressbar"
-                                                style={{"width": winPercentage}}
-                                                aria-valuenow={winPercentage}
-                                                aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                {summoner.wins + "W"}
+                                    <td>
+                                        <span>{summoner.level}</span>
+                                    </td>
+                                    <td>
+                                        {summonersReady &&
+                                            <div style={{float: "left"}}>
+                                                <div className="progress">
+                                                    <div
+                                                        className="progress-bar bg-success"
+                                                        role="progressbar"
+                                                        style={{"width": winPercentage}}
+                                                        aria-valuenow={winPercentage}
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100">
+                                                        {summoner.wins + "W"}
+                                                    </div>
+                                                    <div
+                                                        className="progress-bar bg-danger"
+                                                        role="progressbar"
+                                                        style={{width: lossPercentage}}
+                                                        aria-valuenow={lossPercentage}
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100">
+                                                        {summoner.losses + "L"}
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div
-                                                className="progress-bar bg-danger"
-                                                role="progressbar"
-                                                style={{width: lossPercentage}}
-                                                aria-valuenow={lossPercentage}
-                                                aria-valuemin="0"
-                                                aria-valuemax="100">
-                                                {summoner.losses + "L"}
-                                            </div>
-                                        </div>
-                                    </div>
-                                }
-                            </td>
-                        </tr>
-                    </>
-                )
+                                        }
+                                    </td>
+                                </tr>
+                            </>
+                        )
 
-            })}
-            </tbody>
+                    })}
+                    </tbody>
+                </table>
+                :
+                <Spinner style={{width:"5rem", height:"5rem"}} animation="border"/>
 
-        </table>
     )
 }
 

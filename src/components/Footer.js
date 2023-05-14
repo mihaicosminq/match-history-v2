@@ -5,8 +5,8 @@ function Footer (){
     return (
         <>
             <footer className="footer">
-            <div style={{width:1200,margin:"0 auto"}}>
-                <section style={{display:"flex"}}>
+            <div style={{width:"1200px",marginLeft:"160px"}}>
+                <section className="footerWrapper">
                     <strong className="title">
                         <a href="">
                             <img width={450} src={image}/>

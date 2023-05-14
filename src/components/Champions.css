@@ -59,13 +59,6 @@
 }
 
 
-.lore {
-    width: 30%;
-    display: block;
-    text-align: center;
-    text-overflow: ellipsis;
-}
-
 .champSvg {
     width: 25px;
     height: 25px;

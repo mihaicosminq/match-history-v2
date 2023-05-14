@@ -17,8 +17,11 @@ function Navbar() {
                     <span
                         className="navbar-brand"
                         href="#">
+                        <Link to="/">
                         <img width="80"
                              src={image}/>
+                        </Link>
+
                     </span>
                     <div
                         className="collapse navbar-collapse"
@@ -49,8 +52,6 @@ function Navbar() {
                                          style={{textDecoration: "none"}}
                                          to="/challenger">Challenger
                             Leaderboard</Link>
-
-
                             </span>
                             </li>
                         </ul>

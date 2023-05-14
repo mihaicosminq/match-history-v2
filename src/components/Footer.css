@@ -16,3 +16,8 @@
     padding-left: 0;
     padding-right:20px;
 }
+.footerWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+}

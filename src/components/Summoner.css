@@ -110,4 +110,5 @@
 .summonerWrap{
     display: flex;
     border-top: #665889 1px solid;
+    padding-bottom: 50px;
 }

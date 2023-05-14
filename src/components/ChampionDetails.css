@@ -1,15 +1,12 @@
 .champSection{
     margin-bottom: 1em;
+    margin-top: 2em;
     display: flow-root;
     position: relative;
-    width: 60%;
-    max-width: min(1045px, calc(100% - 288px));
-    min-width: min(828px, 100%);
-    min-height: 180px;
+    width: 55%;
     z-index: 0;
     margin-left: auto;
     margin-right: auto;
-
 }
 .imageChamp{
     position: absolute;
@@ -56,7 +53,7 @@
     text-transform: uppercase;
     font-style: italic;
     font-weight: 800;
-    text-shadow: 1px 1px 2px #261a3a;
+    text-shadow: 3px 3px 2px #261a3a;
 }
 .infoTitle{
     color: white;
@@ -136,6 +133,7 @@
 .subTitle{
     color: #ffffff;
     font-weight: 800;
+    text-align: left;
     font-style: italic;
     font-size: 45px;
     text-shadow: 0px 3px black;
@@ -177,4 +175,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.lore {
+    padding: 1em;
+    margin-top: 1em;
+    box-shadow: black 0 2px 5px 0;
+    border: #665889 solid 1px;
+    background: #230848 no-repeat right top;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    letter-spacing: .2px;
+    line-height: 1.5;
+    display: block;
+    color: #bda5f6;
+    text-align: center;
+    text-overflow: ellipsis;
 }

@@ -1,7 +1,10 @@
 .leaderboard-table{
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: white;
     width: 51%;
-    animation: fadeIn 1s ease-in both;
+    animation: fadeIn 1s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+
 }
 .leaderboard-table:nth-child(2){
     animation-delay: 1s;

@@ -70,7 +70,7 @@ function ChampionDetails() {
                             </div>
                             <div
                                 className="roleIcon">
-                                <h2>Role</h2>
+                                <h2 className="nameStyle">Role</h2>
                                 {champInfo.tags[0] === "Mage" ?
                                     <svg
                                         xmlns="https://www.w3.org/2000/svg"
@@ -293,6 +293,12 @@ function ChampionDetails() {
                 )
                 }
             </section>
+            <section className="abilitySection">
+                <h1 className="subTitle">Lore</h1>
+                <span className="lore">
+                    {champInfo.lore}
+                </span>
+            </section>
             <section
                 className="abilitySection">
                 {isReady &&
@@ -343,7 +349,6 @@ function ChampionDetails() {
                         )
                     })
                 }
-
             </section>
             <section
                 className="abilitySection">
@@ -354,6 +359,7 @@ function ChampionDetails() {
                     image={imageUrl}/>}
                 </div>
             </section>
+
 
         </>
     )

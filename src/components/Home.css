@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom:150px;
+    padding-bottom:70px;
 }
 
 .buttonbar {
@@ -60,4 +60,18 @@
 }
 input:hover::placeholder{
     color: white;
+}
+.note{
+    border: #bda5f6 1px solid;
+    mso-border-shadow: yes;
+    box-shadow: 2px 2px #261a3a;
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    margin-bottom: 25px;
+}
+.noteTitle{
+    padding: 10px;
+    font-size: 17px;
+    text-shadow: 2px 2px #230848;
 }
